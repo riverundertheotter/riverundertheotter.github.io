@@ -19,3 +19,14 @@ body {
   text-align: center;
   color: black;
 }
+
+.Links {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  width: 200px;
+  position: absolute;
+  top: calc(0% + 10px);
+  left: calc(0% + 30px);
+}
