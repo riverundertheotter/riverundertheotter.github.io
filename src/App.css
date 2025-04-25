@@ -5,18 +5,38 @@ body {
 }
 
 .App {
+  font-family: Arial;
   width: 100vw;
   height: 100vh;
   background-color: white;
 }
 
+.TopBar {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(103, 189, 103);
+}
+
+.HomePage {
+  font-family: Arial;
+}
+
+.NavBar {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: calc(20% - 50px);
+  top: 10px;
+}
+
 .Header {
   position: absolute;
-  top: calc(0% + 30px);
-  left: calc(0% + 30px);
+  top: calc(15% + 30px);
+  left: calc(25%);
 
   font-size: 30px;
-  font-family: Cambria;
   text-align: center;
   color: black;
 }
