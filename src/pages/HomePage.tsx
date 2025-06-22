@@ -5,7 +5,8 @@ function HomePage() {
     return (
         <div className='HomePage'>
             <div className='Header'>
-                Hi! I'm River Cook, and on this site you can check out what I'm working on.
+                Hi, I'm River!<br></br>
+                On this site you can check out what I'm working on.
             </div>
             <img className='Buizel' src={buizel} alt='Buizel' />
         </div>
