@@ -5,56 +5,8 @@ body {
 }
 
 .App {
-  font-family: Arial;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   width: 100vw;
   height: 100vh;
   background-color: white;
-}
-
-.TopBar {
-  position: absolute;
-  width: 100%;
-  height: 50px;
-  background-color: rgb(103, 189, 103);
-}
-
-.HomePage {
-  font-family: Arial;
-}
-
-.NavBar {
-  width: 400px;
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  left: calc(20% - 50px);
-  top: 10px;
-}
-
-.Header {
-  position: absolute;
-  top: calc(15% + 30px);
-  left: calc(25%);
-
-  font-size: 30px;
-  text-align: center;
-  color: black;
-}
-
-.Links {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-
-  width: 200px;
-  position: absolute;
-  top: calc(0% + 10px);
-  left: calc(0% + 30px);
-}
-
-.Buizel {
-  position: absolute;
-  top: calc(100% - 700px);
-  left: 25%;
-  width: 1000px;
 }

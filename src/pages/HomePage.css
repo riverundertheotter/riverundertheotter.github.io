@@ -1,0 +1,20 @@
+.HomePage {
+
+    .Buizel {
+        position: absolute;
+        top: 225px;
+        left: 25%;
+        width: 1000px;
+    }
+
+    .Header {
+        position: absolute;
+        top: 150px;
+        left: calc(25%);
+
+        font-size: 30px;
+        text-align: center;
+        color: black;
+    }
+
+}

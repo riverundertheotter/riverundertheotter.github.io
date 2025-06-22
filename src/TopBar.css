@@ -1,0 +1,63 @@
+.TopBar {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(103, 189, 103);
+}
+
+.NavBar {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: calc(20% - 50px);
+    top: 10px;
+    text-align: center;
+
+    .HomeButton,
+    .AboutButton,
+    .ProjectsButton {
+        top: 30px;
+        width: 80px;
+        height: 30px;
+        border-radius: 3px;
+        background-color: rgb(186, 219, 186);
+
+        border-radius: 3px;
+        background-color: rgb(186, 219, 186);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.Links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    width: 200px;
+    position: absolute;
+    top: calc(0% + 10px);
+    left: calc(0% + 30px);
+}
+
+.ContactInfo {
+    position: absolute;
+    top: 10px;
+    left: calc(80%);
+    text-decoration: none;
+}
+
+.NavBar a,
+.Links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.NavBar a:hover,
+.Links a:hover {
+    text-decoration: none;
+    color: white;
+}
