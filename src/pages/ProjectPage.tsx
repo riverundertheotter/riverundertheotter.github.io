@@ -1,7 +1,9 @@
+import './ProjectPage.css'
+
 function ProjectPage() {
     return (
         <div className="ProjectPage">
-            Projects!
+            <h1 className="Projects">Projects!</h1>
         </div>
     )
 } export default ProjectPage;
