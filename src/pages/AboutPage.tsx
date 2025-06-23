@@ -1,9 +1,9 @@
+import './AboutPage.css'
+
 function AboutPage() {
     return (
         <div className="AboutPage">
-            About Me!
+            <h1 className="AboutMe">About Me!</h1>
         </div>
     )
-}
-
-export default AboutPage;
+} export default AboutPage;
