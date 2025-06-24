@@ -1,4 +1,9 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
+  min-height: 2000px;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -6,8 +11,8 @@ body {
 
 .App {
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: white;
   width: 100vw;
   height: 100vh;
-  background-color: white;
+  background-color: rgb(22, 22, 22);
+  color: rgb(22, 22, 22);
 }

@@ -4,6 +4,7 @@ import './HomePage.css'
 function HomePage() {
     return (
         <div className='HomePage'>
+            <div className='PhotoBackground'></div>
             <div className='Header'>
                 Hi, I'm River!<br></br>
                 On this site you can check out what I'm working on.

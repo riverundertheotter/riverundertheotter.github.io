@@ -5,14 +5,17 @@ import AboutPage from './pages/AboutPage';
 import ProjectPage from './pages/ProjectPage';
 import './TopBar.css'
 
+import logo from './assets/Logo.png';
+
 function TopBar() {
     return (
         <div className="TopBar">
             <Router>
+                <img className='Logo' src={logo} alt='Logo'></img>
                 <nav className='NavBar'>
-                    <div className='HomeButton'><Link to="/">Home</Link> {' '}</div>
-                    <div className='AboutButton'><Link to="/about">About</Link> {' '}</div>
-                    <div className='ProjectsButton'><Link to="/projects">Projects</Link> {' '}</div>
+                    <div className='HomeButton'><Link to="/">HOME</Link> {' '}</div>
+                    <div className='AboutButton'><Link to="/about">ABOUT</Link> {' '}</div>
+                    <div className='ProjectsButton'><Link to="/projects">PROJECTS</Link> {' '}</div>
                 </nav>
                 <div className='Links'>
                     <div><a href='https://github.com/riverundertheotter' target="_blank">Github </a></div>

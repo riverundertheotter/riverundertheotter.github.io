@@ -2,18 +2,27 @@
 
     .Buizel {
         position: absolute;
-        top: 225px;
+        top: 240px;
         left: 25%;
         width: 1000px;
     }
 
+    .PhotoBackground {
+        position: absolute;
+        top: 230px;
+        left: 24.5%;
+        width: 1020px;
+        height: 582.5px;
+        background-color: white;
+    }
+
     .Header {
         position: absolute;
-        top: 80px;
+        top: 100px;
         left: calc(5%);
 
         font-size: 30px;
-        color: black;
+        color: white;
 
     }
 
