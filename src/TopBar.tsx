@@ -13,17 +13,16 @@ function TopBar() {
             <Router>
                 <img className='Logo' src={logo} alt='Logo'></img>
                 <nav className='NavBar'>
-                    <div className='HomeButton'><Link to="/">HOME</Link> {' '}</div>
-                    <div className='AboutButton'><Link to="/about">ABOUT</Link> {' '}</div>
-                    <div className='ProjectsButton'><Link to="/projects">PROJECTS</Link> {' '}</div>
+                    <div className='HomeButton'><Link to="/"><b>HOME</b></Link> {' '}</div>
+                    <div className='AboutButton'><Link to="/about"><b>ABOUT</b></Link> {' '}</div>
+                    <div className='ProjectsButton'><Link to="/projects"><b>PROJECTS</b></Link> {' '}</div>
                 </nav>
                 <div className='Links'>
-                    <div><a href='https://github.com/riverundertheotter' target="_blank">Github </a></div>
-                    <div><a href='https://www.linkedin.com/in/river-cook/' target="_blank">LinkedIn </a></div>
+                    <a href="mailto:rivercook2602@protonmail.com"><b>rivercook2602@protonmail.com |</b></a>
+                    <div><a href='https://github.com/riverundertheotter' target="_blank"><b>Github |</b></a></div>
+                    <div><a href='https://www.linkedin.com/in/river-cook/' target="_blank"><b>LinkedIn</b></a></div>
                 </div>
-                <div className='ContactInfo'>
-                    Email: <a href="mailto:rivercook2602@protonmail.com">rivercook2602@protonmail.com</a>
-                </div>
+
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/about" element={<AboutPage />} />
